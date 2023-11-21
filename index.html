@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="styles/css/minified/main.min.css" />
+        <title>Chat</title>
+    </head>
+    <body class="bg-secondary">
+        <div class="container py-5">
+            <div class="half1 bg-secondary h-100 d-flex flex-column rounded-3">
+                <div class="profile bg-dark">
+                    <img src="https://i.pinimg.com/736x/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg" alt="">
+                    <div>
+                        <h4>Eshmat</h4>
+                        <p class="text-primary">online</p>
+                    </div>
+                </div>
+                <div class="text-space d-flex flex-column gap-3">
+                    <!-- <div class="p-2 wrapper-esh">
+                        <div class="text-eshmat bg-primary-subtle rounded-2 w-50">
+                            <p>Lorem ipsum</p>
+                            <div class="status">
+                                <span class="time">15:48</span> <span class="sent_by">Eshmat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 wrapper">
+                        <div class="text-toshmat bg-primary-subtle rounded-2 w-50">
+                            <p>Lorem ipsum </p>
+                            <div class="status">
+                                <span class="time">15:48</span> <span class="sent_by">Toshmat</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <form class="d-flex p-2 justify-content-between gap-2 bg-dark">
+                    <input type="text" placeholder="Message" class="send-input w-100 rounded-3 border-0" />
+                    <button type="submit" class="send-btn btn btn-primary">
+                        <i
+                            class="fa-solid fa-paper-plane"
+                            style="color: #f5f5f5"
+                        ></i>
+                    </button>
+                </form>
+            </div>
+            <div class="half2 bg-secondary h-100 d-flex flex-column rounded-3">
+                <div class="profile bg-dark">
+                    <img src="https://www.gravatar.com/avatar/1b8fabaa8d66250a7049bdb9ecf44397?s=250&d=mm&r=x" alt="">
+                    <div>
+                        <h4>Toshmat</h4>
+                        <p class="text-primary">online</p>
+                    </div>
+                </div>
+                <div class="text-space">
+                    <div class="p-2 wrapper-tosh">
+                        <div class="text-toshmat bg-primary-subtle rounded-2 w-50">
+                            <p>Lorem ipsum</p>
+                            <div class="status">
+                                <span class="time">15:48</span> <span class="sent_by">Toshmat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 wrapper">
+                        <div class="text-eshmat bg-primary-subtle rounded-2 w-50">
+                            <p>Lorem ipsum </p>
+                            <div class="status">
+                                <span class="time">15:48</span> <span class="sent_by">Eshmat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="d-flex p-2 justify-content-between gap-2 bg-dark">
+                    <input type="text" placeholder="Message" class="w-100 rounded-3 border-0" />
+                    <button type="submit" class="btn btn-primary">
+                        <i
+                            class="fa-solid fa-paper-plane"
+                            style="color: #f5f5f5"
+                        ></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
